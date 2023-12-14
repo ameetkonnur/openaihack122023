@@ -14,7 +14,7 @@ system_message = """You are an assistant designed to help people answer question
 You have access to query the web using Bing Search. You should call bing search whenever a question requires up to date information or could benefit from web data.
 """
 messages= [{"role": "system", "content": system_message},
-    {"role": "user", "content": "Latest developments in the construction industry that would be relevant to construction"},
+    {"role": "user", "content": "who is CM of Rajasthan"},
 ]
 
 functions= [  
